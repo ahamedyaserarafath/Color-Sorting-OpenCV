@@ -7,11 +7,9 @@
 In this repo, we will use opencv to detect the basic color of gems
 
 # Pre-requisites 
-* Ensure you install the G++ and opencv
-```
+* Ensure you install the g++ and opencv
 
 # Steps to run script
-```
 ```
 g++ `pkg-config opencv --cflags --libs` gems_color_sorting.c -o output
 
